@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Commande pour valider un document xml : 
-  xml$ xmllint - -schema schema.xsd valides/valide2.xml - -noout
+  xml$ xmllint - -schema schema.xsd xml/valide2.xml - -noout
 -->
 
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">

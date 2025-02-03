@@ -2,105 +2,10 @@
 
 
 	<!DOCTYPE html><html>
-  <style>
-  body{
-    margin: 0;
-    color: black;
-    background: #3d405b;
-    overflow-x: hidden;
-  }
-  section{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 0px;
-    padding: 0px 20vw;
-  }
-
-  .top{
-    background: #e07a5f;
-    padding-right: 80em;
-  }
-  .top h1, .top p{
-    position: absolute;
-      overflow: hidden;
-  }
-  .top p{
-    padding-top: 3em;
-  }
-
-  .middle{
-    padding: 100px;
-    padding-bottom: 400px;
-  }
-  .bottom{
-    background: #bc4749;
-    padding-bottom: 400px;
-  }
-  .wave{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-  }
-  .wave svg{
-      position: relative;
-      display: block;
-      width: calc(125% + 1.3px);
-      height: 380px;
-  }
-  .wave .shape-fill{
-      fill: #e07a5f;
-  }
-
-  .spacer{
-    aspect-ratio: 900/450;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-  }
-  .layer1{
-    background-image: url('../svg/layer1.svg');
-  }
-
-  .blob-motion{
-    position: absolute;
-    transform: translateY(-20%);
-    z-index: 0;
-    -moz-transform: scale(1.5);
-    margin-top: 14vw;
-    margin-left: 14vw;
-  }
-  #circles_background{
-    position: absolute;
-    zoom: 140%;
-  }
-
-  h1, p{
-    z-index: 1;
-    font-size: 1.5em;
-    color: white;
-  }
-  h1{
-    font-size: 2.2em;
-  }
-  table{
-    zoom: 90%;
-    z-index: 1;
-    position: absolute;
-      margin-top: 12vw;
-    margin-left: 12vw;
-  }
-
-</style>
   <head>
     <meta charset="UTF-8"/>
     <title>Puissance 4 - M1 IC</title>
+    <link rel="stylesheet" href="../css/style.css"/>
     <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js">.</script>
   </head>
   <body>
@@ -113,96 +18,7 @@
         <tr>
           <td>
             <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
             </svg>
           </td>
           <td>
@@ -212,34 +28,7 @@
           </td>
           <td>
             <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
             </svg>
           </td>
           <td>
@@ -249,34 +38,12 @@
           </td>
           <td>
             <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
             </svg>
           </td>
           <td>
             <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
             </svg>
           </td>
           <td>
@@ -284,23 +51,8 @@
               <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
             </svg>
           </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
         </tr>
         <tr>
-          <td>
-            <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
-            </svg>
-          </td>
           <td>
             <svg height="80" width="80">
               <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
@@ -323,12 +75,165 @@
           </td>
           <td>
             <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
               <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
             </svg>
           </td>
           <td>
             <svg height="80" width="80">
-              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="#3d405b"/>
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="gold"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
+            </svg>
+          </td>
+          <td>
+            <svg height="80" width="80">
+              <circle cx="40" cy="40" r="35" stroke="#3d405b" stroke-width="2" fill="crimson"/>
             </svg>
           </td>
         </tr>
@@ -361,7 +266,7 @@
     <div class="spacer layer1">.</div>
     <section class="bottom">
       <h1>Interpretation :</h1>
-      <p>Victoire du <font color="orange">Joueur 2</font> en colonne !</p>
+      <p>Le terrain est remplit : La partie est nulle si il n'y a pas de victoire.</p>
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="circles_background" viewBox="0 0 900 500" width="900" height="500" version="1.1">
         <rect width="900" height="500" fill="#bc4749"/>
         <g>

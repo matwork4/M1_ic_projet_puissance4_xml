@@ -25,7 +25,7 @@
 			<colonne id="1">vide</colonne>
 			<colonne id="2">vide</colonne>
 			<colonne id="3">vide</colonne>
-			<colonne id="4">joueur1</colonne>
+			<colonne id="4">joueur0</colonne>
 			<colonne id="5">vide</colonne>
 			<colonne id="6">vide</colonne>
 			<colonne id="7">vide</colonne>
@@ -34,8 +34,8 @@
 			<colonne id="1">vide</colonne>
 			<colonne id="2">vide</colonne>
 			<colonne id="3">vide</colonne>
-			<colonne id="4">joueur2</colonne>
-			<colonne id="5">joueur1</colonne>
+			<colonne id="4">joueur3</colonne>
+			<colonne id="5">pas_joueur</colonne>
 			<colonne id="6">vide</colonne>
 			<colonne id="7">vide</colonne>
 		</ligne>

@@ -1,0 +1,17 @@
+Mathis Ruffieux, annee 2021
+
+--------------------------------------------------------------
+Explications des fichiers xml non valides par le schema.xsd :
+--------------------------------------------------------------
+
+- le fichier id_errone.xml est non valide car les id ne sont pas compris entre 1 et 7
+
+- id_manquant.xml est non valide car il manque des attirbuts "id" sur les balises lignes et colonnes
+
+- joueur_errone.xml est non valide car il y a un joueur3 et d'autres mots non valide
+les seuls mots valides sont "joueur1; joueur2 et vide"
+
+- joueur_manquant.xml est non valide car il manque le mot "vide" dans les balises colonnes.
+En effet ce mot est important pour le fichier xslt et on ne souhaite pas qu'il y ait un espace non remplit, il faut specifier que la case est vide avec le mot "vide". 
+
+- terrain_manquant.xml est non valide car il manque une balise terrain 

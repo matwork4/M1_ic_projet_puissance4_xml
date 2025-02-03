@@ -1,0 +1,98 @@
+
+
+body{
+    margin: 0;
+    color: black;
+    background: #3d405b;
+    overflow-x: hidden;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 0px;
+    padding: 0px 20vw;
+}
+
+.top{
+    background: #e07a5f;
+    padding-right: 80em;
+}
+.top h1, .top p{
+    position: absolute;
+    overflow: hidden;
+}
+.top p{
+    padding-top: 3em;
+}
+
+.middle{
+    padding: 100px;
+    padding-bottom: 400px;
+}
+.bottom{
+    background: #bc4749;
+    padding-bottom: 400px;
+}
+.wave{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.wave svg{
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 380px;
+}
+.wave .shape-fill{
+    fill: #e07a5f;
+}
+
+.spacer{
+    aspect-ratio: 900/450;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+    background-image: url('../svg/layer1.svg');
+}
+
+.blob-motion{
+    position: absolute;
+    transform: translateY(-20%);
+    z-index: 0;
+    zoom: 150%;
+    -moz-transform: scale(1.5);
+    margin-top: 14vw;
+    margin-left: 14vw;
+}
+#circles_background{
+    position: absolute;
+    zoom: 140%;
+    -moz-transform: scale(1.4);
+}
+
+h1, p{
+    z-index: 1;
+    font-size: 1.5em;
+    color: white;
+}
+h1{
+    font-size: 2.2em;
+}
+table{
+    zoom: 90%;
+    -moz-transform: scale(0.9);
+    z-index: 1;
+    position: absolute;
+    margin-top: 12vw;
+    margin-left: 12vw;
+}
+
