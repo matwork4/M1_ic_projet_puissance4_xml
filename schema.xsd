@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Commande pour valider un document xml : 
+  xml$ xmllint - -schema schema.xsd valides/valide2.xml - -noout
+-->
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- On match l'element de la balise puissance4 -->
+  <xs:element name="puissance4">
+    <xs:complexType>
+      <xs:sequence>
+
+        <!-- On match l'element de la balise terrain -->
+        <xs:element name="terrain">
+          <xs:complexType>
+            <xs:sequence>
+
+              <!-- On match chaque ligne, il en faut 6 -->
+              <xs:element name="ligne" maxOccurs="6" minOccurs="6">
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <!-- On match chaque colonne, il en faut 7 -->
+                    <xs:element name="colonne" maxOccurs="7" minOccurs="7">
+                      <xs:complexType>
+                        <xs:simpleContent>
+
+                          <!-- On ecrit le nom du joueur dans chaque case du terrain, une case etant representee par une ligne et une colonne -->
+                          <xs:extension base="joueurType">
+
+                            <!-- Chaque colonne dispose d'un attribut 'id' -->
+                            <xs:attribute type="idType" name="id" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+
+                  <!-- Chaque ligne dispose d'un attribut 'id' -->
+                  <xs:attribute type="idType" name="id" use="required"/>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <!-- Type id compris entre 1 et 7 -->
+  <xs:simpleType name="idType">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive  value="1"/>
+      <xs:maxInclusive  value="7"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <!-- Type joueur soit vide, joueur1 ou joueur2 -->
+  <xs:simpleType name="joueurType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="vide"/>
+      <xs:enumeration value="joueur1"/> 
+      <xs:enumeration value="joueur2"/> 
+    </xs:restriction>
+  </xs:simpleType>
+
+
+
+</xs:schema>
+
+

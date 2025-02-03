@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+
+<puissance4>
+
+	<terrain>
+		<ligne id="1">
+			<colonne id="1">vide</colonne>
+			<colonne id="2">vide</colonne>
+			<colonne id="3">vide</colonne>
+			<colonne id="4">vide</colonne>
+			<colonne id="5">vide</colonne>
+			<colonne id="6">vide</colonne>
+			<colonne id="7">vide</colonne>
+		</ligne>
+		<ligne id="2">
+			<colonne id="1">vide</colonne>
+			<colonne id="2">vide</colonne>
+			<colonne id="3">vide</colonne>
+			<colonne id="4">vide</colonne>
+			<colonne id="5">vide</colonne>
+			<colonne id="6">vide</colonne>
+			<colonne id="7">vide</colonne>
+		</ligne>
+		<ligne id="3">
+			<colonne id="1">vide</colonne>
+			<colonne id="2">vide</colonne>
+			<colonne id="3">vide</colonne>
+			<colonne id="4">vide</colonne>
+			<colonne id="5">vide</colonne>
+			<colonne id="6">vide</colonne>
+			<colonne id="7">vide</colonne>
+		</ligne>
+		<ligne id="4">
+			<colonne id="1">vide</colonne>
+			<colonne id="2">vide</colonne>
+			<colonne id="3">vide</colonne>
+			<colonne id="4">vide</colonne>
+			<colonne id="5">joueur2</colonne>
+			<colonne id="6">vide</colonne>
+			<colonne id="7">vide</colonne>
+		</ligne>
+		<ligne id="5">
+			<colonne id="1">vide</colonne>
+			<colonne id="2">vide</colonne>
+			<colonne id="3">vide</colonne>
+			<colonne id="4">vide</colonne>
+			<colonne id="5">joueur2</colonne>
+			<colonne id="6">vide</colonne>
+			<colonne id="7">vide</colonne>
+		</ligne>
+		<ligne id="6">
+			<colonne id="1">joueur1</colonne>
+			<colonne id="2">joueur1</colonne>
+			<colonne id="3">joueur1</colonne>
+			<colonne id="4">joueur1</colonne>
+			<colonne id="5">joueur2</colonne>
+			<colonne id="6">vide</colonne>
+			<colonne id="7">vide</colonne>
+		</ligne>
+
+	</terrain>
+</puissance4>
